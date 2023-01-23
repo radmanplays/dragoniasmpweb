@@ -1,0 +1,98 @@
+::-webkit-scrollbar {
+    width: 6px;
+    height: 0;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.15);
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  html, body {
+    overflow: hidden;
+    height: 100%;
+    position: fixed;
+    color: black;
+    -webkit-overflow-scrolling: touch;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-family: Ubuntu;
+  }
+canvas {
+	image-rendering: optimizeSpeed;
+}
+  #mainBody {
+    background-image: url("/background.png");
+    background-repeat: no-repeat
+  }
+  hr {
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+    margin: 18px 0 18px;
+  }
+  
+  
+  html, body, canvas {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  
+  h2 {
+    font-size: small;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+  .button {
+    position: relative;
+    color: #f5eded;
+    text-align: center;
+    width: 620px;
+    height: auto;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #f5eded;
+  }
+  .button:hover {
+    border-style: solid;
+    border-color: rgb(208, 24, 24);
+    color: rgb(208, 24, 24);
+  }
+  #changelogHolder {
+    position: absolute;
+    display: block;
+    width: 675px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    border-radius: 10px;
+    background: #d5cfe0;
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+    border-style: solid;
+    border-color: #cc9af6;
+    color: #c011d0;
+    overflow: auto;
+  }
